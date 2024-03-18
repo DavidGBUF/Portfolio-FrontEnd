@@ -1,0 +1,173 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fbe4ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #333;
+}
+
+p,
+label {
+    color: #444;
+}
+
+input {
+    border: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid #999;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+    width: 400px;
+}
+
+.purple-up-bar {
+    background-image: url('../img/download.jpg');
+    background-size: cover;
+
+    height: 160px;
+    padding: 20px;
+
+    h3 {
+        color: rgb(255, 255, 255);
+        margin-top: 0;
+    }
+}
+
+.form-container {
+    border: 3px solid red;
+    position: relative;
+    background-color: #fdfdfd;
+    width: 60%;
+
+    margin: -0px auto;
+    top: -62px;
+
+    .form-header {
+
+        height: 50px;
+
+        text-transform: uppercase;
+
+        p {
+            color: rgb(132, 0, 255);
+            border-bottom: 2px solid purple;
+            width: 100px;
+            text-align: center;
+            margin: 0px auto;
+        
+            height: 48px;
+            line-height: 50px;
+        }
+
+        border-bottom: 2px solid #5a5959;
+    }
+
+
+
+
+    .form-body {
+        padding: 30px;
+
+        .form-title {
+            margin-bottom: 15px;
+        }
+
+        p {
+            padding-bottom: 20px;
+        }
+
+        .required-field {
+            color: red;
+        }
+
+        .block {
+            display: block;
+        }
+
+        form {
+            div {
+                padding: 15px 0px;
+            }
+
+            .box-input {
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+
+                input {
+                    width: 280px;
+                }
+
+            }
+
+            #box-selection {
+
+                label,
+                input {
+                    display: inline
+                }
+
+                input {
+                    width: auto;
+                }
+            }
+
+
+
+        }
+
+    }
+    
+
+}
+
+
+.btn-submit {
+    background-color:rgb(132, 0, 255);
+    color: #fbe4ff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    margin: 0px 40%; 
+    transition: 0.5s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #fbe4ff;
+    border: 1px solid slateblue;
+    color: rgb(132, 0, 255);
+}
+
+.optional-box {
+    margin: 0px 30px 30px 0px;
+
+    ul {
+        list-style: none;
+    }
+
+    display: inline-block;
+}
+
+

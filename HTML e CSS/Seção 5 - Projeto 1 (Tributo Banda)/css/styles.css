@@ -1,0 +1,108 @@
+html {
+    background-color: #ccc;
+    font-family: Helvetica;
+}
+
+.main-title {
+    text-align: center;
+    h1{
+        font-weight: 900;
+    }
+    p {
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.image {
+    text-align: center;
+    margin: 30px;
+    right: 200px;
+    figcaption {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+}
+
+.tag-image {
+    width: 800px;
+    border: 4px double red;
+    outline: 3px dotted black;
+}
+
+.about-band {
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 45px;
+    }
+    p {
+        text-indent: 20px;
+        font-family:sans-serif;
+    }
+    margin: 60px;
+}
+
+
+.citação {
+    
+    
+    background-color: gray;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding-top: 5px;
+    height: 300px;
+    blockquote {
+       
+        padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 39px;
+        font-weight: 900;
+    }
+
+    p {
+        padding-left: 30px;
+        padding-top: 20px;
+        font-family: sans-serif;
+        font-style: italic;
+    }
+
+    margin-bottom: 30px;
+}
+
+
+.curiosidades {
+    h3 {
+        font-size: 30px;
+        padding-left: 39px;
+        font-family: sans-serif;
+    }
+
+    ul {
+        font-family: sans-serif;
+        font-size: 20px;
+        padding-left: 90px;
+        li {
+            margin-bottom: 25px;
+        }
+    }
+}
+#citação-2 {
+    height: 500px;
+}
+
+#imagem2 {
+    width: 1000px;
+    border: 4px double red;
+    outline: 3px dotted black;
+}
+
+.final {
+    padding-left: 20px;
+    font-family: sans-serif;
+
+    p {
+        font-size: 16px;
+    }
+}

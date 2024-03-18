@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Projeto 3 - Extend</title>
+    <link rel="stylesheet" href="css/css extend/styles extend.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav>
+
+            <div class="nav_container">
+                <a href="#">
+                    <img class="logo" src="img/new amazon logo.png" alt="logo da amazon">
+                </a>
+
+                <ul class="navbar-items">
+
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="botao_entrar">Entrar</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+        </nav>
+
+
+
+        <main>
+
+            <div class="main_banner">
+                <h1>Amazon</h1>
+                <p>Produtos de qualidade para venda online</p>
+
+            </div>
+
+
+            <section class="Qualidades">
+                <ul>
+
+                    <li>
+                        <i class="fas fa-sharp fa-solid fa-truck-fast"></i>
+                        <h3>Entrega Rápida</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perspiciatis facere maiores, sint enim nihil 
+                            esse quasi. Unde voluptatem soluta repellat, eius, cum architecto ipsum, vitae incidunt odit fugiat quas!</p>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-regular fa-star"></i>
+                        <h3>Entrega Rápida</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perspiciatis facere maiores, sint enim nihil 
+                            esse quasi. Unde voluptatem soluta repellat, eius, cum architecto ipsum, vitae incidunt odit fugiat quas!</p>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Entrega Rápida</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perspiciatis facere maiores, sint enim nihil 
+                            esse quasi. Unde voluptatem soluta repellat, eius, cum architecto ipsum, vitae incidunt odit fugiat quas!</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="Produtos">
+                <h2>Alguns Produtos e Preços</h2>
+                <p>Veja o que vendemos e seus preços!</p>
+
+                <div class="produtos-container">
+                    <div class="produto">
+                        <ul>
+                            <li class="categoria">Livros!!</li>
+                            <li>
+                                <img src="img/livro harry potter.jpg" alt="" id="imagem">
+                            </li>
+
+                            <li class="preco">R$200</li>
+
+                            <li class="descrição">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo pariatur quasi possimus modi! 
+                                Quibusdam porro tenetur aperiam aliquam corporis laboriosam nulla. Officia aperiam aspernatur beatae a 
+                                et, esse quasi?
+                            </li>
+
+                            <li class="btn-comprar">Comprar</li>
+                        </ul>
+                    </div>
+
+                    <div class="produto">
+                        <ul>
+
+                            <li class="categoria">Moveis Domésticos!!</li>
+                            <li >
+                                <img src="img/moveis.jpg" alt="mavel domestico" id="imagem">
+                            </li>
+
+                            <li class="preco">R$290</li>
+
+                            <li class="descrição">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo pariatur quasi possimus modi! 
+                                Quibusdam porro tenetur aperiam aliquam corporis laboriosam nulla. Officia aperiam aspernatur beatae a 
+                                et, esse quasi?
+                            </li>
+
+                            <li class="btn-comprar">Comprar</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="produto">
+                        <ul>
+
+                            <li class="categoria">Tecnologia!!</li>
+                            <li>
+                                <img src="img/smartphone.jpg" alt=""  id="imagem">
+                            </li>
+
+                            <li class="preco">R$1500</li>
+
+                            <li class="descrição">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo pariatur quasi possimus modi! 
+                                Quibusdam porro tenetur aperiam aliquam corporis laboriosam nulla. Officia aperiam aspernatur beatae a 
+                                et, esse quasi?
+                            </li>
+
+                            <li class="btn-comprar">Comprar</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="Receber-email">
+                <h2>Deseja ser atualizado das ofertas?</h2>
+                <p>Digite seu e-mail para ficar por dentro das promoções</p>
+
+                <form>
+                    <input type="email" name="email" id="email" required
+                    placeholder="Seu E-mail">
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+
+
+            <section class="contato-container">
+                <h2>Quer vender na Amazon?</h2>
+                <p>Envie uma mensagem, nossos funcionários entraram em contato rapidamente</p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Seu nome">
+                    <input type="email" name="email" id="email" placeholder="Email para contato">
+
+                    <textarea name="descrição" id="descrição"
+                    placeholder="Fale sobre você e seu(s) produto(s)"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+
+            <footer>
+                <p>Amazon LTDA @ 2024 </p>
+            </footer>
+            
+        </main>
+    </div>
+    
+
+</body>
+</html>

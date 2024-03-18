@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #fff;
+}
+
+
+.main-container {
+    text-align: center;
+}
+
+.main-box {
+    width: 350px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin: 15px auto;
+    text-align: center;
+    .logo-instragam {
+        margin-top: 43px;
+        margin-bottom: 15px;
+        width: 175px;
+    }
+
+    p{
+        width: 80%;
+        margin:0 auto;
+        font-size: 15px;
+        color: #888;
+        font-weight:550;
+    }
+}
+
+.login-facebook {
+    margin: 30px auto;
+    a {
+        display: flex;
+        margin: 0 auto;
+        border-radius: 8px;
+        height: 32px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 13px;
+        background-color: rgb(36, 149, 255);
+        color: #fff;
+        font-weight: bold;
+        width: 75%;
+
+        
+
+        img {
+            margin-right: 8px;
+            width: 16px;
+        }
+
+        cursor: pointer;
+    }
+
+    a:hover {
+        background-color: rgb(21, 115, 202);
+    }
+    
+    
+}
+
+.separator {
+    position: relative;
+    width: 75%;
+    margin: 30px auto;
+    .line {
+        border-top: 1px solid #dbdbdb;
+    }
+
+    span {
+        position: absolute;
+        top: -15px;
+        margin-left: -25px;
+        color:  #666666;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #fff ;
+    }
+}
+
+.form-cadastro {
+    p {
+        font-size: 12px;
+        font-weight: normal;
+
+        color: #666666;
+
+        a {
+            text-decoration: none;
+            color: rgb(40, 40, 134);
+        }
+    }
+
+    input {
+        margin-bottom: 7px;
+        padding: 8px 12px;
+        width: 265px;
+        background-color: #f7f7f7;
+        border: 1px solid #dbdbdb;
+        font-size: 12px;
+        font-weight: 100;
+        border-radius: 3px;
+    }
+
+    input[type="submit"] {
+        border-radius: 10px;
+        background-color: rgb(91, 157, 255);
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 45px;
+        
+    }
+
+    input[type="submit"]:hover {
+        background-color: rgb(55, 135, 255);
+        cursor: pointer;
+        
+    }
+
+
+}
+
+.logar {
+    border: 1px solid #dbdbdb;
+    margin: 0px auto;
+    width: 350px;
+    font-size: 14px;
+    padding: 21px 12px;
+    a {
+        text-decoration: none;
+        color:  rgb(0, 159, 187);
+        font-weight: bold;
+    }
+}
+
+.get-app {
+    margin: 30px auto;
+    width: 350px;
+    font-size: 14px;
+    a {
+        
+        text-decoration: none;
+        img{
+            margin-top: 12px;
+            width: 136px;
+            height: 45px;
+        }
+    }
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ul {
+        display: flex;
+        
+        
+        list-style: none;
+
+        li {
+            margin-left: 12px;
+            a {
+                text-decoration: none;
+                color: #8e8e8e;
+                font-size: 12px;
+            }
+            
+        }
+    }
+
+    p {
+        margin:10px auto;
+        font-size: 12px;
+        color: #8e8e8e;
+    }
+}
+
+
+@media (max-width:450px){
+    footer {
+        margin: 0 auto;
+        width: 90%;
+        ul {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+
+    .main-box {
+        width: 90%;
+        border: none;
+    }
+}

@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #000;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.banner-container, .form-container {
+    flex: 1 1 0;
+    width:50%;
+    
+}
+
+.banner-container {
+    text-align: right;
+    width: 50%;
+    img {
+        margin-top: 25px;
+        width:50%;
+        max-width: 380px;
+        margin-right: 40px;
+    }
+
+    
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-box {
+    background-color: #eee;
+    width: 350px;
+    border: 1px solid #eee;
+    margin-top: 30px;
+
+    #logo-insta {
+        width:175px;
+        height: 51px;
+        margin: 30px auto 12px;
+    }
+
+
+    .login-form {
+        margin-top: 20px;
+    }
+    input {
+        display: block;
+        margin: 5px auto;
+        padding: 12px 9px;
+        width: 268px;
+        border-radius: 3px;
+        border: 1px solid #dbdbdb;
+        background-color: #ddd;
+        font-size: 12px;
+    }
+
+    input[type="submit"] {
+        border-radius: 10px;
+        font-size: 13px;
+        padding: 0;
+        height: 30px;
+        color: #fff;
+        border: none;
+        background-color: rgb(103, 183, 236);
+        margin-top: 15px;
+        font-weight: bold;
+
+    }
+
+    input[type="submit"]:hover {
+        cursor: pointer;
+        background-color: rgb(22, 138, 216);
+    }
+}
+
+.separator {
+    position: relative;
+}
+
+.line {
+    border-top: 1px solid #bdbdbd;
+    width: 265px;
+
+    margin:26px auto 25px;
+}
+
+.separator span {
+    position: absolute;
+    color: #777;
+    top:-6px;
+    margin-left: -25px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #eee;
+}
+
+.other-links {
+    
+    a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #385185;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width:16px;
+        height:16px;
+        margin-right: 8px;
+        
+    }
+
+    .facebook-login {
+        margin: 30px auto ;
+    }
+
+    .forgot-pass{
+        
+        a {
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        margin-bottom: 25px;
+    }
+}
+
+.register-container {
+    margin: 12px 0;
+    background-color: #eee;
+    width: 350px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    padding: 22px;
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(0, 159, 187);
+    }
+}
+
+.get-app {
+    p{
+        font-size: 13px;
+        margin: 20px 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    width: 350px;
+    img{
+        width: 136px;
+        height: 45px;
+    }
+}
+
+
+footer {
+    margin: 50px auto;
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            font-weight: normal;
+            margin-right: 10px;
+            font-size: 12px;
+            a {
+                text-decoration: none;
+                color: #8e8e8e;
+            }
+            
+        }
+    }
+
+    p {
+        margin:10px auto;
+        font-size: 12px;
+        color: #8e8e8e;
+    }
+}
+
+@media (max-width:450px) {
+
+    body {
+        background-color: #fff;
+    }
+    .banner-container {
+        display: none;
+    }
+
+    .main-container,
+    .form-box {
+        margin: 0;
+    }
+
+    
+
+    .form-container,
+    .form-box,
+    .register-container,
+    .get-app {
+        width: 100%;
+        border: none;
+    }
+
+    footer {
+        width: 90%;
+
+        ul {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 10px;
+            li {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
