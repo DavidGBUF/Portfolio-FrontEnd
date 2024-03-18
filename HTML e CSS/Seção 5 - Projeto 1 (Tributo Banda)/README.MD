@@ -1,3 +1,1 @@
-teste
-offspring_1.jpg
-<img src="./img/offspring_1.jpg">
+veja o projeto no pdf "Site completo"
