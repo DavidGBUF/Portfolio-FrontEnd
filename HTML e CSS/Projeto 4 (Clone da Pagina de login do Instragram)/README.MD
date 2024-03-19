@@ -13,12 +13,12 @@ Versão mobile:
 
 Pagina extra:
 
-<img src="./img/proj2.png">
+<img src="./img/proj2 .png">
 
 
 
 Versão mobile:
 
 
-<img src="./img/proj2 mobile mobile.png">
+<img src="./img/proj 2 mobile.png">
 
