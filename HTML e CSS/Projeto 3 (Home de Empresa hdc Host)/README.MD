@@ -4,3 +4,9 @@ o arquivo "projeto extend" é uma versão minha modificada para ser uma pagina d
 Algumas fotos do sites:
 <img src="./img/indexImg 1.png">
 <img src="./img/indexImg 2.png">
+
+
+Algumas fotos do site extend:
+<img src="./img/extendImg 1.png">
+<img src="./img/extendImg 2.png">
+
