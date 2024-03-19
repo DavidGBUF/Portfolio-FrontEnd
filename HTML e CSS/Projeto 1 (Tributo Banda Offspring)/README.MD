@@ -1,1 +1,1 @@
-veja o projeto no pdf "Site completo"
+O projeto é uma pagina web que faz um pequeno tributo a uma banda, faz uso apenas de html e css, você pode ver o site no pdf chamado "Site completo"  porém ele não mantém todas os estilos do site original, para ver o site final baixe a pasta pai "projeto 1 (tr...) e rode o arquivo index.html no seu navegador)
