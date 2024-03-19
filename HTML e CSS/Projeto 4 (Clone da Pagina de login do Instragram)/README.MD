@@ -6,4 +6,6 @@ Veja as imagens do projeto:
 
 
 Versão mobile:
+
+
 <img src="./img/proj1 mobile.png">
