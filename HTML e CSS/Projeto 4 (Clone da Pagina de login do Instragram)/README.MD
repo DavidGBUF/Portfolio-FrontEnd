@@ -2,4 +2,4 @@ O projeto é uma pagina clone do login do instragram, usa apenas html e css, fiz
 Voce pode baixar a pasta pai e rodar o arquivo "index extend.html" e "nova pag.html" para vizualizar.
 
 Veja as imagens do projeto:
-
+<img src="./img/proj1.png">
