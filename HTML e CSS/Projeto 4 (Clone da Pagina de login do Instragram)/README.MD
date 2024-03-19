@@ -3,3 +3,7 @@ Voce pode baixar a pasta pai e rodar o arquivo "index extend.html" e "nova pag.h
 
 Veja as imagens do projeto:
 <img src="./img/proj1.png">
+
+
+Versão mobile:
+<img src="./img/proj1 mobile.png">
