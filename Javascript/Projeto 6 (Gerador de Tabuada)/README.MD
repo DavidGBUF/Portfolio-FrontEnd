@@ -3,4 +3,9 @@ e rode "index.html" no seu navegador
 
 Algumas Imagens do Projeto:
 
+<img src="./img/img1.png">
+
+
+
+<img src="./img/img2.png">
 
